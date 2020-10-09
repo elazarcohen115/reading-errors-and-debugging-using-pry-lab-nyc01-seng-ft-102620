@@ -3,7 +3,7 @@ require 'pry'
 
 def snake_it_up(string)
   binding.pry
-  if string.first == "s"
+  if string[0] == "s"
     string.unshift("sssssssssss")
   else
     string
